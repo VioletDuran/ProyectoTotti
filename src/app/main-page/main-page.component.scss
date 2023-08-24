@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #fff;
+}
+
+/* Estilos para el encabezado */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Añadido para separar logo y menú */
+  background-color: #2a2a2a; /* Color de fondo del encabezado */
+  padding: 15px 0;
+}
+
+/* Estilos para el menú de navegación */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0 15px;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #e74c3c; /* Cambio de color a rojo al pasar el mouse */
+}
+
+/* Estilos para el logo */
+.logo img {
+  width: 120px;
+  height: 60px;
+  margin-right: 10px;
+  margin-left: 70px;
+}
+
+/* Estilos para el contenedor del formulario */
+.login-container {
+  background-color: #282828;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 100px auto;
+}
+
+/* Estilos para el encabezado del formulario */
+.login-header img {
+  width: 50%;
+  margin-left: 70px;
+}
+
+/* Estilos para el formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para las etiquetas y campos de entrada */
+label {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos para el botón */
+button {
+  background-color: #e74c3c; /* Cambio de color a rojo */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0392b; /* Cambio de color a rojo más oscuro */
+}
+
